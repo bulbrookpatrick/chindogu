@@ -4,9 +4,23 @@
 <title>Page Title</title>
 </head>
 <body>
-
+    <!-- Loads maze.html -->
+    <script>
+        window.onload = function() {
+          // Get the link element by its id
+          var link = document.getElementById('mazeLink');
+        
+          // Check if the link exists
+          if (link) {
+            // Trigger a click on the link
+            link.click();
+          }
+        };
+        </script>
+        
 <h1>Hello World</h1>
-<a href="maze.html">Maze</a>
+<onload></onload>
+<a id ="mazeLink" href="maze.html">Maze</a>
 <a></a>
 </body>
 </html>
